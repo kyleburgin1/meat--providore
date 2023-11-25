@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.index-header-container{
+    display: flex;
+    background-color: black;
+    height: 128px;
+    gap: 22px;
+    align-items: center;
+    padding-left: 32px;
+}
+
+
+
+.beef-link{
+    text-decoration: none;
+    color: white;
+}
+
+.lamb-link{
+    text-decoration: none;
+    color: white;
+}
+
+.other-products-link{
+    text-decoration: none;
+    color: white;
+}
+
+.placeholder{
+    text-decoration: none;
+    color: white;
+}
+
+.index-body-container{
+    height: 600px;
+    background-color: dimgray;
+}
