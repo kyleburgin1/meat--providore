@@ -10,10 +10,9 @@
     height: 128px;
     gap: 22px;
     align-items: center;
-    padding-left: 32px;
+    padding-left: 200px;
+    padding-right: 32px;
 }
-
-
 
 .beef-link{
     text-decoration: none;
@@ -33,6 +32,16 @@
 .placeholder{
     text-decoration: none;
     color: white;
+}
+
+.phone{
+    color: white;
+    font-weight: bold;
+}
+
+.email{
+    color: white;
+    font-weight: bold;
 }
 
 .index-body-container{
