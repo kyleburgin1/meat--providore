@@ -14,16 +14,27 @@
     padding-right: 32px;
 }
 
+
+.beef-link:hover{
+    transform: scale(1.1);
+}
 .beef-link{
     text-decoration: none;
     color: white;
 }
 
+
+.lamb-link:hover{
+    transform: scale(1.1);
+}
 .lamb-link{
     text-decoration: none;
     color: white;
 }
 
+.other-products-link:hover{
+    transform: scale(1.1);
+}
 .other-products-link{
     text-decoration: none;
     color: white;
