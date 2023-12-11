@@ -18,7 +18,7 @@
 .beef-link:hover{
     transform: scale(1.1);
 }
-.beef-link{
+.beef-link, .lamb-link, .other-products-link, .placeholder{
     text-decoration: none;
     color: white;
 }
@@ -27,23 +27,14 @@
 .lamb-link:hover{
     transform: scale(1.1);
 }
-.lamb-link{
-    text-decoration: none;
-    color: white;
-}
+
 
 .other-products-link:hover{
     transform: scale(1.1);
 }
-.other-products-link{
-    text-decoration: none;
-    color: white;
-}
 
-.placeholder{
-    text-decoration: none;
-    color: white;
-}
+
+
 
 .phone{
     color: white;
