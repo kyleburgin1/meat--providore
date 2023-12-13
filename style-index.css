@@ -1,52 +1,61 @@
 *{
-    margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    margin: 0;
 }
 
-.index-header-container{
+.index-contact-info{
     display: flex;
+    align-content: center;
+    justify-content: space-around;
+    color: white;
     background-color: black;
-    height: 128px;
-    gap: 22px;
-    align-items: center;
-    padding-left: 200px;
-    padding-right: 32px;
+    padding: 20px;
+    flex-wrap: wrap;
+    font-size: 20px;
 }
 
-
-.beef-link:hover{
-    transform: scale(1.1);
-}
-.beef-link, .lamb-link, .other-products-link, .placeholder{
+.phone{
+    font-weight: bold;
     text-decoration: none;
     color: white;
 }
 
-
-.lamb-link:hover{
-    transform: scale(1.1);
-}
-
-
-.other-products-link:hover{
-    transform: scale(1.1);
-}
-
-
-
-
-.phone{
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
     color: white;
-    font-weight: bold;
+    gap: 22px;
+    flex-wrap: wrap;
 }
 
-.email{
-    color: white;
-    font-weight: bold;
+.body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
 }
 
-.index-body-container{
-    height: 600px;
-    background-color: dimgray;
+.body-title{
+    position: absolute;
+    top: 8px;
+    bottom: 16px;
+    padding-bottom: 48px;
+    font-size: 48px;
 }
+
+.body-text{
+    position: absolute;
+    margin-top: 60px;
+    top: 100px;
+    bottom: 16px;
+    font-weight: bold;
+    
+}
+
+
+
+
+
