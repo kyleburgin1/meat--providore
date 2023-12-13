@@ -20,7 +20,10 @@
     color: white;
 }
 
+
+
 .header{
+    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,6 +39,7 @@
     justify-content: center;
     position: relative;
     text-align: center;
+    overflow-x: hidden;
 }
 
 .body-title{
@@ -47,14 +51,21 @@
 }
 
 .body-text{
+    padding: 12px;
     width: 300px;
+    height: auto;
     position: absolute;
     margin-top: 30px;
     top: 100px;
     bottom: 16px;
     font-weight: bold;
-    font-size: large;
-    
+    font-size: 22px;
+    color: white;
+}
+
+.footer{
+    height: 68px;
+    background: black;
 }
 
 
