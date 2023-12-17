@@ -58,12 +58,29 @@
 }
 
 .product-listing-container{
-    height: 128px;
+    background-color: grey;
+    height: 800px;
     display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    padding-left: 28px;
-    padding-right: 28px;
+    align-items: center;
+    flex-direction: column;
+    padding: 28px;
+    padding-left: 48px;
+    padding-right: 48px;
+    gap: 18px;
+    font-weight: bold;
+}
+
+.product-square{
+    height: 200px;
+    width: 200px;
+    max-height: 200px;
+    background-color: white;
+    gap: 24px;
+}
+
+.product-square img{
+    height: 200px;
+    width: 200px;
 }
 
 .footer{
