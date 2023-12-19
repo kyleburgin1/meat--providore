@@ -79,16 +79,18 @@
     color: white;
     gap: 24px;
     margin-bottom: 24px;
+    
 }
 
 .product-square img{
     height: 200px;
     width: 200px;
+    text-decoration: none;
 }
 
 .product-name{
     margin: 0px;
-    position: absolute;
+    
 }
 
 .footer{
