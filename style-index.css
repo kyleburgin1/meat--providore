@@ -45,6 +45,10 @@
     overflow-x: hidden;
 }
 
+.body-img{
+    filter: blur(4px);
+}
+
 .body-text{
     padding: 12px;
     width: 300px;
