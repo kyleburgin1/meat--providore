@@ -6,12 +6,18 @@
 .index-contact-info{
     display: flex;
     align-content: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     color: white;
     background-color: black;
     padding: 20px;
     flex-wrap: wrap;
     font-size: 20px;
+}
+
+.ph-email-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .phone{
