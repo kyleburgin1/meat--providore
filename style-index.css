@@ -78,6 +78,11 @@
     font-weight: bold;
 }
 
+.product-square:hover{
+    transform: scale(1.2);
+    transition: all 0.5s;
+}
+
 .product-square{
     display: flex;
     align-items: center;
@@ -85,11 +90,11 @@
     height: 230px;
     width: 200px;
     max-height: 230px;
-    background-color: black;
     color: white;
     gap: 24px;
     margin-bottom: 24px;
-    
+    border: 8px solid;
+    border-color: black
 }
 
 .product-page-link{
@@ -106,7 +111,7 @@
 
 .product-name{
     margin: 0px;
-    
+    font-weight: bold;
 }
 
 .footer{
