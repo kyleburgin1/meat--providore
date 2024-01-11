@@ -1,6 +1,10 @@
-const menuButton = document.querySelector(".menu-button");
 
-menuButton.addEventListener("click", function(){
-    console.log("Test");
-});
+const sideNav = document.getElementById("my-sidenav");
 
+function openNav(){
+    sideNav.style.width = "250px";
+};
+
+function closeNav(){
+    sideNav.style.width = "0";
+};

@@ -16,16 +16,29 @@
         <div class="index-contact-right-side">
             <a href="https://www.facebook.com/islandprovidore/" target="_blank">
             <img src="./index-images/facebook-logo.png" alt="facebook logo" height="100px" width="auto"></a>
-            <button class="menu-button">
+            <button class="menu-button" onclick="openNav()">
                 <div class="button-line"></div>
                 <div class="button-line"></div>
                 <div class="button-line"></div>
             </button>
         </div>
     </div>
+
+
    <div class="header">
-    <img src="./brand-logo-images/Color logo with background.png" alt="Brand Logo" height="70%" width="70%" id="brand-img">
+    <div class="header-img-container">
+        <img src="./brand-logo-images/White logo - no background.png" alt="Brand Logo" height="70%" width="70%" id="brand-img">
+    </div>
    </div>
+   <div id="my-sidenav" class="sidenav">
+    <a href="javascript:void(0)" class="close-btn"
+    onclick="closeNav()">X</a>
+    <a href="./product-pages/beef.html">Beef Products</a>
+    <a href="./product-pages/lamb.html">Lamb Products</a>
+    <a href="./product-pages/pork.html">Pork Products</a>
+   </div>
+
+
    <div class="body">
     <img src="./index-images/wood-background.jpg" alt="cows" class="body-img">
         <p class="body-text">We are locally owned and operated by five King Island families with origins as beef & sheep farmers
