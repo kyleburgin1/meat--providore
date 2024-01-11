@@ -28,6 +28,10 @@
     border: 4px solid;
 }
 
+.button-line:hover{
+    color: grey;
+}
+
 .sidenav{
     height: 100%; 
     width: 0; 
@@ -50,8 +54,8 @@
     transition: 0.3s;
 }
 
-.sidenav:hover{
-    color: white;
+.sidenav a:hover{
+    color: grey;
 }
 
 .sidenav .close-btn{
