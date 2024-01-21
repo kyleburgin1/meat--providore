@@ -9,9 +9,11 @@
     justify-content: flex-start;
     color: white;
     background-color: black;
-    padding-bottom: 20px;
+    padding-top:30px;
+    padding-bottom: 30px;
     font-size: 12px;
-    padding-left: 60px;
+    padding-left: 20px;
+
 }
 
 .menu-btn-container{
@@ -145,7 +147,7 @@
     overflow-x: hidden;
     border: 14px solid;
     border-color: black;
-    background-image: url(./index-images/wood-background.jpg);
+    background-color: gray;
 }
 
 .body-text{
