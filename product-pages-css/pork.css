@@ -88,8 +88,8 @@
 }
 
 .button-line{
-    height: 1vh;
-    width: 5vh;
+    height: 5px;
+    width: 35px;
     background-color: white;
     gap: 2px;
     margin: 6px 0;
