@@ -19,12 +19,7 @@
     border: 12px double;
 }
 
-.img-container{
-    display: flex;
-    border: 10px solid;
-    border-color: black;
-    overflow-x: hidden;
-}
+
 
 .menu-btn-container{
     display: flex;
