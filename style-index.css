@@ -156,8 +156,13 @@
     color: white;
     border: 12px double;
     border-color: white;
-    background: #111;
     
+    
+}
+
+.body-text:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
 }
 
 .product-listing-container{
