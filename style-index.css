@@ -3,20 +3,6 @@
     margin: 0;
 }
 
-.index-contact-info{
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    color: white;
-    background-color: black;
-    padding-top:30px;
-    padding-bottom: 30px;
-    font-size: 12px;
-    padding-left: 20px;
-    font-weight: bold;
-
-}
-
 .menu-btn-container{
     display: flex;
     justify-content: flex-end;
@@ -91,19 +77,6 @@
     margin: 6px 0;
 }
 
-.ph-email-div{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 12px;
-}
-
-.phone{
-    font-weight: bold;
-    text-decoration: none;
-    color: white;
-}
-
 .header{
     display: flex;
     justify-content: center;
@@ -130,10 +103,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative;
     text-align: center;
-    overflow-x: hidden;
-    background-color: gray;
+    background-color: black;
+    border-bottom: 4px solid;
+    border-color: white;
 }
 
 .body-text-container{
@@ -148,25 +121,18 @@
     padding: 20px;
     width: 300px;
     height: auto;
-    position: absolute;
     margin-top: 30px;
+    margin-bottom: 30px;
     top: 60px;
     font-weight: bold;
     font-size: 24px;
     color: white;
     border: 12px double;
     border-color: white;
-    
-    
-}
-
-.body-text:hover{
-    transform: scale(1.1);
-    transition: all 0.5s;
 }
 
 .product-listing-container{
-    background-color: grey;
+    background-color: black;
     background-repeat: no-repeat;
     display: grid;
     justify-items: center;
@@ -175,6 +141,8 @@
     padding-left: 100px;
     padding-right: 100px;
     font-weight: bold;
+    border-bottom: 4px solid;
+    border-color: white;
 }
 
 .product-square:hover{
