@@ -37,6 +37,10 @@
     z-index: 100;
 }
 
+.button-line{
+    border-radius: 12px;
+}
+
 .sidenav{
     font-family: Arial, Helvetica, sans-serif;
     height: 100%; 
